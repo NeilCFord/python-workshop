@@ -1,6 +1,6 @@
 numbers = [5, 2, 3, 1, 4]
-print "numbers"
-print sorted(numbers)
+print ("numbers")
+print (sorted(numbers))
 
 student_tuples = [
     ('john', 'A', 15),
@@ -10,5 +10,5 @@ student_tuples = [
 def sort_students(arg):
     return arg[2]
 
-print "tuples"
-print sorted(student_tuples, key=sort_students)
+print ("tuples")
+print (sorted(student_tuples, key=sort_students))

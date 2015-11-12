@@ -5,27 +5,14 @@
 2 + 3 * 5
 (2 + 3) * 5
 
-
-#challenge! find a sum that gives you
-#a result you didn't expect...
-
-
-
-
-
-
-
-
-
-
-
-
-#answer
+# Discover the difference between this two expressions
 25 / 6
+25 // 6
 
 
 #floats
 5.0 / 25
+
 
 #strings
 "hello"
@@ -69,7 +56,7 @@ print(name)
 number = int(input("type a number? "))
 print(number)
 
-#challenge! 
+#challenge!
 #write a program that asks your name and how many times to print it
 #then prints your name that number of times
 
@@ -78,9 +65,9 @@ print(number)
 
 
 
-name = input("your name? ") 
-number = input("number of times? ") 
-print(name * int(number))
+name = input("your name? ")
+xnumber = int(input("number of times? "))
+print(name * number)
 
 
 
@@ -89,15 +76,15 @@ print(name * int(number))
 
 
 
-#challenge! 
+#challenge!
 #write a program that asks for a number
 #and prints out its square
 
 
 
 
-my_number = input("a number? ")
-print(int(my_number) * int(my_number))
+my_number = int(input("a number? "))
+print(my_number * my_number)
 
 
 
@@ -125,7 +112,7 @@ elif time >= 12 and time < 18:
     print("afternoon!")
 else:
     print("evening!")
-    
+
 
 
 #challenge!
@@ -185,7 +172,6 @@ else:
 while True:
     print("hello")
     print("matt")
-    break
 
 
 
@@ -208,7 +194,7 @@ while True:
 
     if password == "secret":
         print("correct")
-        break
+        break #break cause a loop to terminate immediately
     else:
         print("wrong!")
 
@@ -257,7 +243,7 @@ time.sleep(5)
 
 
 #challenge!
-#make a loop that prints 'hello' on one line, 
+#make a loop that prints 'hello' on one line,
 #then 'world' on the next
 #with a 1 second delay between each line
 
@@ -275,7 +261,7 @@ while True:
     time.sleep(1)
     print("world")
     time.sleep(1)
-    
+
 
 
 #random number library
@@ -307,7 +293,7 @@ def my_func(a,b):
 print(my_func(20,30))
 
 #challenge!
-#write a function that when you call with a number, 
+#write a function that when you call with a number,
 #prints its times table out from 1 to 10
 
 
@@ -386,7 +372,7 @@ string.split(',')
 
 #challenge!
 #use your function that printed a times table,
-#and wrap it in a for loop to print 
+#and wrap it in a for loop to print
 #the 1 to 10 times tables
 
 
@@ -413,7 +399,7 @@ for table in range(1,11):
 """
 exceptions
 remember the type conversions from the beginning? int(),str(),float()
-what happens when we try to convert a string to a float, 
+what happens when we try to convert a string to a float,
 but the string doesn't contain a float?
 """
 float("hello")
@@ -429,7 +415,7 @@ except ValueError:
 
 #challenge: write a little program that repeatedly asks for the user
 #to type a number, and it will only finish when user types a number
-#more than 0. The program must be able to handle the case when the 
+#more than 0. The program must be able to handle the case when the
 #user types in something that python can't convert to a number...
 
 
@@ -467,7 +453,7 @@ fh.write("hello world")
 fh.close()
 
 
-    
+
 
 #file reading:
 fh = open("myfile.txt",'r')
@@ -477,7 +463,7 @@ print(fh.readlines())
 
 """
 challenge: write a program that reads all the lines of your file,
-and prints them out one after the other. 
+and prints them out one after the other.
 At the end, display how many lines there were in the file.
 """
 
@@ -500,7 +486,7 @@ print("there were", line_counter, "lines in the file")
 
 
 """
-challenge: go back to your times table example. Modify the program so 
+challenge: go back to your times table example. Modify the program so
 instead of printing to the screen, it writes each table to a separate
 file
 """
