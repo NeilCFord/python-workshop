@@ -1,4 +1,4 @@
-# facilitators notes - python beginners
+# facilitators notes - Introduction to Python for KS3 and KS4
 
 ## Welcome @ 9.30
 

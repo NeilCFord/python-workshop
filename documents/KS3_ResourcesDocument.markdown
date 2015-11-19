@@ -15,6 +15,7 @@
 - teach computing (Alan O’Donohoe) http://teachcomputing.wordpress.com/
 - using python: http://usingpython.com/
 - Classroom for GitHub - https://classroom.github.com/ - Your course assignments on GitHub
+- Anaconda - https://www.continuum.io/why-anaconda - A Python distribution designed for scientific analysis and data science.
 
 ## Books
 - Python in Education - http://www.oreilly.com/programming/free/python-in-education.csp
