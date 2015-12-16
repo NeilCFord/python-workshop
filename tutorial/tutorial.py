@@ -66,7 +66,7 @@ print(number)
 
 
 name = input("your name? ")
-xnumber = int(input("number of times? "))
+number = int(input("number of times? "))
 print(name * number)
 
 
@@ -124,7 +124,7 @@ else:
 
 secret = 10
 
-guess = int(input("a number? "))
+guess = int(input("guess a number? "))
 
 if guess == secret:
     print("you got it right!")
