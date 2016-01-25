@@ -12,13 +12,13 @@ def draw_shape():
     start_y = y - (size/2)
 
     # set pen up
-    t.up()
+    t.penup()
 
     # move to start position
     t.goto(start_x, start_y)
 
     # draw shape
-    t.down()
+    t.pendown()
     t.setheading(0)
     for i in range(sides):
         t.forward(size)
@@ -49,5 +49,3 @@ for record in records:
     draw_shape()
 
 fh.close()
-
-
