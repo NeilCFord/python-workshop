@@ -18,6 +18,7 @@ fh = open("file.txt", 'r')
 # read all the lines into a list
 lines = fh.readlines()
 
+print(lines)
 # using a for loop, print the lines out
 for line in lines:
     print(line)
