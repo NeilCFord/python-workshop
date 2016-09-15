@@ -42,6 +42,9 @@ for record in records:
     score = int(score)
     scores.append(score)
 
-# print the data
+# print the data: the lists and then formatted as name, score
 print(names)
 print(scores)
+
+for i in range(len(names)):
+    print(names[i] + ", " + str(scores[i]))

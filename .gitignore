@@ -2,6 +2,5 @@
 *.pyc
 __pycache__
 .DS_Store
-assessments/ocr/2014
 assessments/ocr/2015
-assessments/btec
+assesments/aqa/2017

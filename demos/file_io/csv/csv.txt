@@ -1,3 +1,6 @@
 Matt,25
 Sue,100
 James,105
+Avril, 200
+Neil, 50
+Paul, 75

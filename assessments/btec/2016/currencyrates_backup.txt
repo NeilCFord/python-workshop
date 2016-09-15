@@ -1,0 +1,10 @@
+Australian Dollar,2.039
+Canadian Dollar,2.025
+Chinese Yuan,9.364
+Euro,1.314
+Hong Kong Dollar,11.09
+Indian Rupee,96.306
+Japanese Yen,168.354
+New Zealand Dollar,2.203
+Singapore Dollar,2.033
+US Dollar,1.423

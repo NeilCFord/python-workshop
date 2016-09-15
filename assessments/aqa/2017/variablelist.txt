@@ -1,0 +1,10 @@
+Variables
+
+juveniles_num           integer
+adults_num              integer
+seniles_num             integer
+juveniles_surv_rate     float       0 <> 1
+adults_surv_rate        float       0 <> 1
+seniles_surv_rate       float       0 <> 1
+birth_rate              float
+num_generations         integer     5 <> 25
