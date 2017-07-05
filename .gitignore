@@ -2,5 +2,7 @@
 *.pyc
 __pycache__
 .DS_Store
+*.zip
 assessments/ocr/2015
 assesments/aqa/2017
+demos/file_io/tabulardata
